@@ -26,7 +26,7 @@ it("reverse the given string by using HOC", function() {
 describe("filterLongWords", function() {
 
     it("reverse the given string by using HOC", function() {
-       assert.equal(reverse(["isam","dss","weww","sd"],2), ["isam", "dss", "weww"]);
+       assert.equal(filterLongWords(["isam","dss","weww","sd"],2), ["isam", "dss", "weww"]);
     });
     
     });
