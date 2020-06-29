@@ -1,0 +1,55 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+<script src="main.js"></script>
+<script>
+    // chai has a lot of stuff, let's make assert global
+    let assert = chai.assert;
+  </script>
+<script>mocha.setup('bdd')</script>
+</head>
+
+
+
+
+<body>
+
+  
+<script src="tests.js"></script>
+
+
+<div class="container"> 
+    <div class="row blue">
+     <h1 class="mx-auto text-white p-3">Mocha & FP</h1>
+    </div>
+    <div class="">
+        <ul id="results" class=" h5">         
+        </ul>
+    </div>
+
+    <div id="mocha">
+
+    </div>
+</div>
+
+
+
+
+
+<script>
+    mocha.run();
+</script>
+</body>
+</html>
