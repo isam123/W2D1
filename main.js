@@ -49,7 +49,7 @@ const filterLongWords = (array , i) => {
          return item.length>i;
 
     })
-    return result
+    return JSON.stringify(result)
 }
 
-console.log(filterLongWords(["isam","dss","weww","sd"],2));
+console.log( "results "+filterLongWords(["isam","dss","weww","sd"],2));
